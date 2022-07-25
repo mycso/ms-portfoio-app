@@ -132,7 +132,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! graphql-tag */ "graphql-tag");
 /* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(graphql_tag__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\components\\DeleteProduct.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\components\\DeleteProduct.js";
 
 
 const DELETE_PRODUCT_MUTATION = graphql_tag__WEBPACK_IMPORTED_MODULE_2___default.a`
@@ -201,13 +201,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\components\\ErrorMessage.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\components\\ErrorMessage.js";
 
 
 
 const ErrorStyles = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ErrorMessage__ErrorStyles",
-  componentId: "sc-11u5fgj-0"
+  componentId: "sc-8gkyxc-0"
 })(["padding:2rem;background:white;margin:2rem 0;border:1px solid rgba(0,0,0,0.05);border-left:5px solid red;p{margin:0;font-weight:100;}strong{margin-right:1rem;}"]);
 
 const DisplayError = ({
@@ -294,7 +294,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "@fortawesome/free-brands-svg-icons");
 /* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__);
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\components\\HomeCarousel.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\components\\HomeCarousel.js";
 
 
 
@@ -586,7 +586,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_ErrorMessage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/ErrorMessage */ "./components/ErrorMessage.js");
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../config */ "./config.js");
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\components\\Pagination.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\components\\Pagination.js";
 
 
 
@@ -694,7 +694,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7__);
 
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\components\\Product.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\components\\Product.js";
 
 
 
@@ -891,7 +891,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(graphql_tag__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../config */ "./config.js");
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\components\\Products.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\components\\Products.js";
 
 
 
@@ -995,7 +995,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_client_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_router__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _styles_DropDown__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/DropDown */ "./components/styles/DropDown.js");
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\components\\Search.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\components\\Search.js";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -1215,16 +1215,16 @@ __webpack_require__.r(__webpack_exports__);
 
 const DropDown = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "DropDown",
-  componentId: "n5d97g-0"
+  componentId: "lz05t9-0"
 })(["position:absolute;width:100%;z-index:2;border:1px solid ", ";"], props => props.theme.lightgrey);
 const DropDownItem = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "DropDown__DropDownItem",
-  componentId: "n5d97g-1"
+  componentId: "lz05t9-1"
 })(["border-bottom:1px solid ", ";background:", ";padding:1rem;transition:all 0.2s;", ";display:flex;align-items:center;border-left:10px solid ", ";img{margin-right:10px;}cursor:pointer;"], props => props.theme.lightgrey, props => props.highlighted ? '#f7f7f7' : 'white', props => props.highlighted ? 'padding-left: 2rem;' : null, props => props.highlighted ? props.theme.lightgrey : 'white');
 const glow = Object(styled_components__WEBPACK_IMPORTED_MODULE_0__["keyframes"])(["from{box-shadow:0 0 0px yellow;}to{box-shadow:0 0 10px 1px yellow;}"]);
 const SearchStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "DropDown__SearchStyles",
-  componentId: "n5d97g-2"
+  componentId: "lz05t9-2"
 })(["position:relative;input{width:100%;padding:10px;border:0;border-bottom:1px solid ", ";font-size:1.45rem;&.loading{animation:", " 0.5s ease-in-out infinite alternate;}}"], props => props.theme.lightgrey, glow);
 
 
@@ -4827,14 +4827,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _products__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./products */ "./pages/products/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\pages\\index.js";
 
 
 
 
 const Inner = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "pages__Inner",
-  componentId: "sc-150rvgv-0"
+  componentId: "fawx0s-0"
 })(["max-width:", ";margin:0 auto;padding:2rem;font-size:20px;"], props => props.theme.maxWidth);
 function IndexPage() {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
@@ -4881,7 +4881,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_4__);
 
-var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\stax-of-stories-2\\stax2\\frontend\\pages\\products\\index.js";
+var _jsxFileName = "C:\\Users\\Michael\\Documents\\reactJS\\ms-portfolio\\frontend\\pages\\products\\index.js";
 
 
 
