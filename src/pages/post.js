@@ -1,7 +1,7 @@
 
 import React from "react"
 import styled from 'styled-components';
-import { Navigate } from "react-router-dom"
+import { Navigate, useParams } from "react-router-dom"
 import Markdown from "react-markdown"
 import postlist from "../posts.json"
 import SingleItemStyles from '../../src/components/styles/SingleItemStyles';
@@ -15,7 +15,9 @@ const Center = styled.div`
 `;
 
 const Post = (props) => {
-    const validId = parseInt(props.match.params.id)
+    let params = useParams();
+    
+    const validId = parseInt(params.id)
     if (!validId) {
         return <Navigate to="/404" />
     }

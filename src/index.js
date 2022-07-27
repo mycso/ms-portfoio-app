@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route} from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import './index.css';
 import Home from "./pages/home"
 import About from "./pages/about"
@@ -195,10 +195,12 @@ root.render(
             <Router>
                 <Header />
                     <div>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/about" component={About} />
-                        <Route exact path="/404" component={NotFound} />
-                        <Route exact path="/post/:id" render={props => <Post {...props} />} />
+                    <Routes>
+                        <Route exact path="/" element={<Home/>} />
+                        <Route exact path="/about" element={<About/>} />
+                        <Route exact path="/404" element={<NotFound/>} />
+                        <Route exact path="/post/:id" element={<Post/>} />
+                    </Routes>
                     </div>
                 <Footer />
             </Router>
