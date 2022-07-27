@@ -17,7 +17,7 @@ const Center = styled.div`
 const Post = (props) => {
     const validId = parseInt(props.match.params.id)
     if (!validId) {
-        return <Redirect to="/404" />
+        return <Navigate to="/404" />
     }
     const fetchedPost = {}
     let postExists = false
