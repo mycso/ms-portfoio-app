@@ -1,7 +1,7 @@
 
 import React from "react"
 import styled from 'styled-components';
-import { Redirect } from "react-router-dom"
+import { Navigate } from "react-router-dom"
 import Markdown from "react-markdown"
 import postlist from "../posts.json"
 import SingleItemStyles from '../../src/components/styles/SingleItemStyles';
@@ -37,7 +37,7 @@ const Post = (props) => {
         }
     })
     if (postExists === false) {
-        return <Redirect to="/404" />
+        return <Navigate to="/404" />
     }
 
     const dataImage = [
