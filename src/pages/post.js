@@ -71,8 +71,8 @@ const Post = (props) => {
                 <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
                 <div className="details">
                     <p>{fetchedPost.description}</p>
+                    <Markdown children={fetchedPost.content} escapeHtml={false} />
                     <a href={`${fetchedPost.link}`} target="_blank" rel="noreferrer">{fetchedPost.link}</a>
-                    <Markdown source={fetchedPost.content} escapeHtml={false} />
                 </div>
             </div>
 

@@ -43,8 +43,6 @@ export default function SomePostList () {
     const randomNumber = arr => [...arr].sort(() => Math.floor(Math.random() * 20));
 
     const postListRandomize = randomNumber(postlist);
-
-    console.log(postListRandomize)
     
     // if (loading) return <p>Loading...</p>;
     // if (error) return <p>Error: {error.message}</p>;
