@@ -81,6 +81,10 @@ const StyledHeader = styled.header`
     	color: ${props => props.theme.black} !important;
   	}
 
+	.nav-link a {
+    	color: ${props => props.theme.black} !important;
+  	}
+
   	a {
   		cursor: pointer;
   	}
@@ -160,7 +164,7 @@ export default function Nav() {
 						</li>
 						<li className="nav-item">
 							<div className="nav-link">
-								<a href="http://localhost:3000/images/michaelsokan-cv4.pdf">Resume/CV</a>
+								<a target="_blank" rel="noreferrer" href="https://ms-portfolio-studio.netlify.app/images/michaelsokan-cv4.pdf">Resume/CV</a>
 							</div>
 						</li>
 						<li>      
