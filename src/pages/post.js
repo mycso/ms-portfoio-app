@@ -68,7 +68,7 @@ const Post = (props) => {
                     showDescription={false} 
                     direction="right" 
                 />
-                <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
+                {/* <small>Published on {fetchedPost.date} by {fetchedPost.author}</small> */}
                 <div className="details">
                     <Markdown children={fetchedPost.content} escapeHtml={false} />
                     <a href={`${fetchedPost.link}`} target="_blank" rel="noreferrer">{fetchedPost.link}</a>
