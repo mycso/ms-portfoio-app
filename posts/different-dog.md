@@ -10,8 +10,6 @@ image3: /images/differentdog/ShoppingCart-Step1-22368.jpeg
 image4: /images/differentdog/Blog-7c483.jpeg
 ---
 
-# Different Dog
-
 *Different Dog is a website that I designed with a team for a healthy dog and pet food and accessories e-commerce business who set out to prove that hand-cooking food with real ingredients would change dogs’ lives. Since day one, customers have been telling us that after our food, their dog is a different dog. The website features a Menu with all the items and their ingredients on it so you can get an idea of what was offered. 
 
 The Different Dog was designed to be appealing and informative for prospective users before the web app release, informing them about what to anticipate and encouraging them to search, sign up for the to help provide the best health for your dog and stay connected. I focused on making it simple for site visitors to discover what they need and join the queue easily by placing CTAs effectively both in the home banner and above the footer. 
