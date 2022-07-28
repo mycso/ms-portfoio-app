@@ -1,7 +1,7 @@
 ---
 name: Different Dog Ecommerece UI Design
 author: Michael Sokan
-description: 
+description: Different Dog UI Design pages
 date: 2020-01-03T11:50:02.255Z
 link: https://www.differentdog.com/
 image: /images/differentdog/HomeScreen-f38bf.jpeg
