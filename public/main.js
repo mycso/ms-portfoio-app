@@ -45,7 +45,8 @@ const getPosts = () => {
         files.forEach((file, i) => {
             let obj = {}
             let post
-            fs.readFile(`${dirPath}/${file}`, "utf8", (err, contents) => {
+            const fileName = file.split(' ')[0]
+            fs.readFile(`${dirPath}/${fileName}`, "utf8", (err, contents) => {
                 const getMetadataIndices = (acc, elem, i) => {
                     if (/^---/.test(elem)) {
                         acc.push(i)
