@@ -37,16 +37,19 @@ const ItemsList = styled.div`
 
 export default function PostList () {
     const excerptList = postlist.map(post => {
+		console.log(post.content)
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
     })
+
+	console.log(excerptList[0])
     
     // if (loading) return <p>Loading...</p>;
     // if (error) return <p>Error: {error.message}</p>;
     return (
         <Center>
             <ItemsList>
-                {postlist?.map((post) => (
-                    <Post key={post.id} post={post} excerptList={excerptList} />
+                {postlist?.map((post, i) => (
+                    <Post key={post.id} post={post} excerptList={excerptList[i]} />
                 ))}
             </ItemsList>
         </Center>
