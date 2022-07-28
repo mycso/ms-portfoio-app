@@ -85,9 +85,9 @@ const getPosts = () => {
                     link: metadata.link ? metadata.link : "No author given",
                     time: parsedDate["time"],
                     image: metadata.image ? metadata.image : "No author given",
-                    image2: metadata.image2 ? metadata.image2 : "No author given",
-                    image3: metadata.image3 ? metadata.image3 : "No author given",
-                    image4: metadata.image4 ? metadata.image4 : "No author given",
+                    image: metadata.image2 ? metadata.image2 : "No author given",
+                    image: metadata.image3 ? metadata.image3 : "No author given",
+                    image: metadata.image4 ? metadata.image4 : "No author given",
                     content: content ? content : "No content given",
                 }
                 postlist.push(post)

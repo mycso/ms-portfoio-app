@@ -16,7 +16,7 @@ const Center = styled.div`
 
 const Post = (props) => {
     let params = useParams();
-    
+
     const validId = parseInt(params.id)
     if (!validId) {
         return <Navigate to="/404" />
@@ -57,8 +57,6 @@ const Post = (props) => {
         },
     ];
 
-    console.log(props);
-    console.log(dataImage);
     return (
         <Inner>
         <SingleItemStyles>
