@@ -4,7 +4,7 @@ name: Different Dog Ecommerece UI Design
 title: Different Dog Ecommerece UI Design
 description: Different Dog UI Design pages
 link: https://www.differentdog.com/
-date: 2022-07-29T14:27:37.195Z
+date: 2022-07-29T14:32:05.435Z
 image: /images/differentdog/HomeScreen-f38bf.jpeg
 image2: /images/differentdog/Productdetail-0998a.jpeg
 image3: /images/differentdog/ShoppingCart-Step1-22368.jpeg
