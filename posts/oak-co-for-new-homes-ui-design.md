@@ -1,7 +1,7 @@
 ---
 title: Oak & Co For New Homes UI Design
 author: Michael Sokan
-date: 2022-07-29T14:29:20.485Z
+date: 2022-07-29T14:31:38.261Z
 image: /images/oak-co-website-01.png
 image2: /images/oak-co-website-02.png
 image3: /images/oak-co-website-06.png
