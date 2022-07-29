@@ -13,5 +13,3 @@ direct therefore I like to deliver when I have been set a task. I always aim for
 me and the people I work with. I thrive on challenges, and I am always looking to exceed my 
 previous success. My main goal is to become an individual who works amongst people in an 
 innovative and creative environment and also has the skillset of a backend developer.
-
-See my CV

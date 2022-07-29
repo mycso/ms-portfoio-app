@@ -22,3 +22,4 @@ collections:
       - {label: "Featured Image", name: "image3", widget: "image", required: false}
       - {label: "Featured Image", name: "image4", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      
