@@ -1,5 +1,5 @@
 ---
-title: Stax Of Stories E-commerce UI Design/Development
+title: Stax Of Stories E-commerce UI Design
 author: Michael Sokan
 date: 2022-07-29T13:08:27.592Z
 image: /images/portfolio-1.png
