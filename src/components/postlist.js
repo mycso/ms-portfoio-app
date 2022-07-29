@@ -40,8 +40,6 @@ export default function PostList () {
 		console.log(post.content)
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
     })
-
-	console.log(excerptList[0])
     
     // if (loading) return <p>Loading...</p>;
     // if (error) return <p>Error: {error.message}</p>;

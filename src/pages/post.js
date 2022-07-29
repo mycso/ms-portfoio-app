@@ -25,7 +25,7 @@ const Post = (props) => {
     let postExists = false
     postlist.forEach((post, i) => {
         if (validId === post.id) {
-            fetchedPost.name = post.name ? post.name : "No title given"
+            fetchedPost.title = post.title ? post.title : "No title given"
             fetchedPost.image = post.image ? post.image : "No date given"
             fetchedPost.image2 = post.image2 ? post.image2 : "No date given"
             fetchedPost.image3 = post.image3 ? post.image3 : "No date given"
@@ -61,7 +61,7 @@ const Post = (props) => {
         <Inner>
         <SingleItemStyles>
             <div className="item-details">
-                <h2>{fetchedPost.name}</h2>
+                <h2>{fetchedPost.title}</h2>
                 <SliderImage 
                     data={dataImage} 
                     width="500px" 

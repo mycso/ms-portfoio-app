@@ -11,13 +11,13 @@ export default function Post({ post }) {
     return ( 
         <ItemStyles>
             <Title>
-                <Link to={`/post/${post.id}`}>{post.name}</Link>
+                <Link to={`/post/${post.id}`}>{post.title}</Link>
             </Title>
             <br />
             <Link to={`/post/${post.id}`}>
                 <img 
                     src={post?.image} 
-                    alt={post.name} 
+                    alt={post.title} 
                 />
             </Link>
             <br />
