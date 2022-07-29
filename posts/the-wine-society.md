@@ -2,7 +2,7 @@
 title: The Wine Society UI Design and Design System
 author: Michael Sokan
 link: https://www.thewinesociety.com
-date: 2022-07-29T08:29:12.198Z
+date: 2022-07-29T14:32:22.438Z
 image: /images/screencapture-thewinesociety-2022-07-23-22_41_54.png
 image2: /images/screencapture-thewinesociety-become-a-member-join-2022-07-23-22_57_56.png
 image3: /images/screencapture-thewinesociety-buy-wines-red-wine-france-bordeaux-2022-07-23-22_54_42.png
