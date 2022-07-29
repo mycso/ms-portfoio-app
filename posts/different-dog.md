@@ -1,6 +1,7 @@
 ---
-name: Different Dog Ecommerece UI Design
 author: Michael Sokan
+name: Different Dog Ecommerece UI Design
+title: Different Dog Ecommerece UI Design
 description: Different Dog UI Design pages
 link: https://www.differentdog.com/
 date: 2022-07-28T22:17:33.745Z
