@@ -4,7 +4,7 @@ const StyledSubHeader = styled.div`
 	
 	.subheader-wrapper{
 		position: fixed;
-	    margin-top: 99px;
+	    margin-top: 99.6px;
 	    right: 0;
 	    left: 0;
 	    z-index: 1030;
