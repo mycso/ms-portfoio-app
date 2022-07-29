@@ -1,5 +1,5 @@
 ---
-title: test
+title: The Wine Society UI Design and Design System
 author: test
 date: 2022-07-29T08:29:12.198Z
 image: /images/screencapture-thewinesociety-2022-07-23-22_41_54.png
