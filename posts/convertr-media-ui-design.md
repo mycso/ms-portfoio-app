@@ -1,7 +1,7 @@
 ---
 title: Convertr Media UI Design
 author: Michael Sokan
-date: 2022-07-29T13:12:20.043Z
+date: 2022-07-29T14:30:41.159Z
 image: /images/screencapture-convertr-io-product-data-optimization-and-routing-2022-07-24-18_27_14.png
 image2: /images/screencapture-convertr-io-about-our-story-2022-07-24-18_28_56.png
 image3: /images/screencapture-convertr-io-customers-agencies-2022-07-24-18_28_12.png
