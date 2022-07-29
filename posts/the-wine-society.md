@@ -1,5 +1,5 @@
 ---
-title: The Wine Society UI Design and Design System/Development
+title: The Wine Society UI Design and Design System
 author: Michael Sokan
 link: https://www.thewinesociety.com
 date: 2022-07-29T08:29:12.198Z
