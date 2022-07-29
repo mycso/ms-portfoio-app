@@ -1,6 +1,7 @@
 ---
-name: Grants Payment System UI Design
 author: Michael Sokan
+name: Grants Payment System UI Design
+title: Grants Payment System UI Design
 description: Grants Payment UI Design pages
 link: ""
 date: 2022-07-28T22:02:52.964Z
