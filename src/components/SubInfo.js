@@ -13,7 +13,7 @@ export default function SubInfo() {
         <div className="subheader-wrapper">
                 <div className="subheader-inner">
                     <span>
-                        <div className="float-left">mycso@live.co.uk</div>
+                        <div className="float-left"><a className="contact-link" rel="noreferrer" href="mailto:mycso@live.co.uk">mycso@live.co.uk</a></div>
                     </span>
                     {/* {user && (
                         <>
