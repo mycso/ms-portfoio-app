@@ -5,7 +5,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import SplashImage from './styles/SplashImageStyles';
-import SubHeader from '../components/SubHeader';
+// import SubHeader from '../components/SubHeader';
 
 const StyledContactSplash = styled.div`
 
@@ -31,7 +31,8 @@ const ContactSplash = () => (
 			    <div className="social-button-main">
 			      <div className="col-xs-12 col-sm-12 col-md-12">
 			        <ul className="list-unstyled list-inline social text-center">
-						<li className="list-inline-item"><a href="https://github.com/mycso" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
+						<li className="list-inline-item">
+						<a href="https://github.com/mycso" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
 			        </ul>
 			      </div>
 			    </div> 

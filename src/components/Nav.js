@@ -164,11 +164,11 @@ export default function Nav() {
 						</li>
 						<li className="nav-item">
 							<div className="nav-link">
-								<a target="_blank" rel="noreferrer" href="https://ms-portfolio-studio.netlify.app/images/michaelsokan-cv4.pdf">Resume/CV</a>
+								<a target="_blank" rel="noreferrer" href="https://ms-portfolio-studio.netlify.app/images/michaelsokan-cv5.pdf">Resume/CV</a>
 							</div>
 						</li>
 						<li>      
-							<Link to="/contactUs">
+							<Link to="/contact">
 								<div className="nav-link">Contact Me</div>
 							</Link>
 						</li>

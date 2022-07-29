@@ -9,6 +9,7 @@ import NotFound from "./pages/notfound"
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ContactPage from './pages/contact';
 
 const theme = {
     black: '#000000',
@@ -198,6 +199,7 @@ root.render(
                     <Routes>
                         <Route exact path="/" element={<Home/>} />
                         <Route exact path="/about" element={<About/>} />
+                        <Route exact path="/contact" element={<ContactPage/>} />
                         <Route exact path="/404" element={<NotFound/>} />
                         <Route exact path="/post/:id" element={<Post/>} />
                     </Routes>
