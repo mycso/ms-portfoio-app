@@ -1,8 +1,8 @@
 ---
-title: Sky Product and Brand UI Design System
+title: Sky Product and Brand UI Design
 author: Michael Sokan
 link: https://www.sky.com/toolkit
-date: 2022-07-29T14:31:16.541Z
+date: 2022-07-29T14:54:44.447Z
 image: /images/today-sky.jpg
 image2: /images/knowledge-base.jpg
 image3: /images/sky-light-box.jpg
