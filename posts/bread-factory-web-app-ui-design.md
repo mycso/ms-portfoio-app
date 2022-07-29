@@ -1,5 +1,5 @@
 ---
-title: Bread Factory Web App UI Design/Development
+title: Bread Factory Web App UI Design
 author: Michael Sokan
 link: https://jobs.thebreadfactory.co.uk/
 date: 2022-07-29T12:59:06.647Z
