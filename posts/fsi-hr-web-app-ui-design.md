@@ -1,7 +1,7 @@
 ---
 title: FSI HR Web App UI Design
 author: Michael
-date: 2022-07-29T12:48:46.330Z
+date: 2022-07-29T14:29:35.341Z
 image: /images/dashboard-8d166.jpeg
 image2: /images/accountprofile-96a38.jpeg
 image3: /images/applicationtracker-7b1f2.jpeg
