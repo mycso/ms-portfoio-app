@@ -1,7 +1,7 @@
 ---
 title: Ottilus Streaming App UI Design/Development
 author: Michael Sokan
-link: https://www.brandhealthcare.co.uk/
+link: ""
 date: 2022-07-29T13:32:01.675Z
 image: /images/section-21-01.png
 image2: /images/ottilus_ipad-development-01.jpg
