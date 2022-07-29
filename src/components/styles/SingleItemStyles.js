@@ -149,11 +149,19 @@ const SingleItemStyles = styled.div`
 
 	.react-slider__ul {
 		display: block;
+
+		@media (max-width: 768px) {
+			display: flex;
+		}
 	}
 
 	.react-slider__ul li {
 		margin: 30px 0px 30px 20px;
 		min-height: 200px;
+
+		@media (max-width: 768px) {
+			min-height: 64px;
+		}
 	}
 
 	.react-slider__ul li:nth-child(3n -1) {
@@ -173,6 +181,10 @@ const SingleItemStyles = styled.div`
 		position: absolute;
 		top: 0;
 		left: 0;
+
+		@media (max-width: 768px) {
+			height: 70px;
+		}
 	}
 
 	.react-slider__lens {

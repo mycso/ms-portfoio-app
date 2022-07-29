@@ -1,18 +1,22 @@
 import React from "react"
-import Markdown from "react-markdown"
 import aboutText from "../pages.json"
+import AboutSplash from "../components/AboutSplash";
+import Inner from "../components/styles/InnerStyles";
+import Markdown from "react-markdown";
 // import Layout from "../components/layout"
 
 const About = () => {
+    console.log(aboutText);
+
     return (
-        // <Layout>
         <div>
-             <h1 style={{textAlign: `center`, marginBottom: `40px`}}>This is the About Page.</h1>
-            <div className="page-content">
-                <Markdown source={aboutText[0].content} escapeHtml={false} />
-            </div>
+            <AboutSplash />
+            <Inner>
+            <br/>
+                <Markdown children={aboutText[0].content} escapeHtml={false} />
+            <br/>
+            </Inner>
         </div>
-        // </Layout>
     )
 }
 

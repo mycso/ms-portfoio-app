@@ -158,7 +158,7 @@ export default function Nav() {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/aboutUs">
+							<Link to="/about">
 								<div className="nav-link">About Me</div>
 							</Link>
 						</li>

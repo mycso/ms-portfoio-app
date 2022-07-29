@@ -162,8 +162,8 @@ export default function Footer() {
 								</Link>
 							</li>
 							<li>
-								<Link to="/AboutUs">
-									<div>About Us</div>
+								<Link to="/about">
+									<div>About Me</div>
 								</Link>
 							</li>
 							<li>

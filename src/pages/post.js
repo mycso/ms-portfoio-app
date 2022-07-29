@@ -44,18 +44,21 @@ const Post = (props) => {
 
     const dataImage = [
         {
-            image: fetchedPost?.image
+            image: fetchedPost?.image ? fetchedPost?.image : "No image" 
         },
         {
-            image: fetchedPost?.image2
+            image: fetchedPost?.image2 ? fetchedPost?.image2 : "No image" 
         },
         {
-            image: fetchedPost?.image3
+            image: fetchedPost?.image3 ? fetchedPost?.image3 : "No image"
         },
         {
-            image: fetchedPost?.image4
+            image: fetchedPost?.image4 ? fetchedPost?.image4 : "No image"
         },
     ];
+    if (dataImage === "No image given") {
+        return <div>Nothing to show</div>
+    }
 
     return (
         <Inner>
