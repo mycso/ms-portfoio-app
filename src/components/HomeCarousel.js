@@ -44,7 +44,7 @@ export default function HomeCarousel() {
 							<h2 className="display-4">Hi, I am Michael Sokan</h2>
 							<h3 className="display-5">Pleased to meet you. Welcome to my world of design and code</h3>
 						</div>
-						<small>Front End Developer - UI Designer</small>
+						<small>Front End Developer - UX/UI Designer</small>
 						<br />
 						<br />
 						<ScrollTo>
