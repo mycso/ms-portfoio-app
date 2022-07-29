@@ -1,5 +1,5 @@
 ---
-title: Ottilus Streaming App UI Design/Development
+title: Ottilus Streaming App UI Design
 author: Michael Sokan
 link: ""
 date: 2022-07-29T13:32:01.675Z
