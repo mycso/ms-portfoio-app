@@ -79,7 +79,7 @@ const getPosts = () => {
                 const timestamp = date.getTime() / 1000
                 post = {
                     id: timestamp,
-                    name: metadata.name ? metadata.name : "No title given",
+                    title: metadata.title ? metadata.title : "No title given",
                     author: metadata.author ? metadata.author : "No author given",
                     description: metadata.description ? metadata.description : "No description given",
                     date: publishedDate ? publishedDate : "No date given",
