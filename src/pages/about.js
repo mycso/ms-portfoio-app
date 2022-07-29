@@ -14,8 +14,7 @@ const About = () => {
             <Inner>
                 <br/>
                     <Markdown children={aboutText[0].content} escapeHtml={false} />
-                <br/>
-                <a target="_blank" rel="noreferrer" href="https://ms-portfolio-studio.netlify.app/images/michaelsokan-cv4.pdf">Resume/CV</a>
+                    <a target="_blank" rel="noreferrer" href="https://ms-portfolio-studio.netlify.app/images/michaelsokan-cv4.pdf">Resume/CV</a>
             </Inner>
         </div>
     )
