@@ -1,10 +1,4 @@
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
-    faFacebook,
-    faTwitter,
-    faInstagram
-} from '@fortawesome/free-brands-svg-icons';
 import SplashImage from './styles/SplashImageStyles';
 
 const StyledAboutSplash = styled.div`
@@ -29,15 +23,6 @@ const AboutSplash = () => (
 			      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 			      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 			    </ol>
-			    <div className="social-button-main">
-			      <div className="col-xs-12 col-sm-12 col-md-12">
-			        <ul className="list-unstyled list-inline social text-center">
-			          <li className="list-inline-item"><a rel="noreferrer" href="https://www.facebook.com/staxofstories/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
-			          <li className="list-inline-item"><a rel="noreferrer"href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-			          <li className="list-inline-item"><a rel="noreferrer"href="https://www.instagram.com/staxofstories/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
-			        </ul>
-			      </div>
-			    </div> 
 			    <div className="carousel-inner" role="listbox">
 			      <div className="carousel-item active">
 			      	<div className="hi-five"></div>
