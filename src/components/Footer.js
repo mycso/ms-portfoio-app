@@ -171,11 +171,6 @@ export default function Footer() {
 									<div>Contact Us</div>
 								</Link>
 							</li>
-							<li>
-								<Link to="/signin">
-									<div>Sign In/Sign Up</div>
-								</Link>
-							</li>
 						</ul>
 					</div>
 				</div>
