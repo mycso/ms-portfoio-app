@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes, useLocation} from "react-router-dom"
 import './index.css';
 import Home from "./pages/home"
 import About from "./pages/about"
@@ -187,6 +187,14 @@ const StyledPage = styled.div`
     margin-top: 150px;
 `;
 
+const Wrapper = ({ children }) => {
+    const location = useLocation()
+    useLayoutEffect(() => {
+      document.documentElement.scrollTo(0, 0)
+    }, [location.pathname])
+    return children
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -195,15 +203,17 @@ root.render(
         <StyledPage>
             <Router>
                 <Header />
+                <Wrapper>
                     <div>
-                    <Routes>
-                        <Route exact path="/" element={<Home/>} />
-                        <Route exact path="/about" element={<About/>} />
-                        <Route exact path="/contact" element={<ContactPage/>} />
-                        <Route exact path="/404" element={<NotFound/>} />
-                        <Route exact path="/post/:id" element={<Post/>} />
-                    </Routes>
+                        <Routes>
+                            <Route exact path="/" element={<Home/>} />
+                            <Route exact path="/about" element={<About/>} />
+                            <Route exact path="/contact" element={<ContactPage/>} />
+                            <Route exact path="/404" element={<NotFound/>} />
+                            <Route exact path="/post/:id" element={<Post/>} />
+                        </Routes>
                     </div>
+                </Wrapper>
                 <Footer />
             </Router>
         </StyledPage>
