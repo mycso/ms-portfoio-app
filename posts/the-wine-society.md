@@ -12,4 +12,6 @@ The Wine Society is an online wine-buying club for avid wine drinkers. The websi
 
 It is because it didn't aim to solve users' problems or it wasn't built with a design system that would ensure managing design at scale using reusable, systemized and cohesive components and styles. As the project has been developed finished and the design system is fully created you can now see the finished site by clicking the link below.
 
+Design System:
+
 `https://tws-accessibility.netlify.app/`
